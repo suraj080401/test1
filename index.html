@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grandfather{
+            border: 1px black dotted;
+            height: 800px;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+        .father{
+            border: 1px black dotted;
+            margin: 10px;
+            height: 95%;
+            width: 45%;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+        .father-person1{
+            border: 1px black dotted;
+            height: 95%;
+            margin: 10px;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+        .child{
+            border: 1px black solid;
+            height: 95%;
+            width: 18%;
+            margin: 5px;
+            padding: 10px;
+        }
+        .number{
+            text-align: center;
+            border: 1px black dotted;
+            margin: 10px; 
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+        .uncle{
+            border: 1px black dotted;
+            margin: 10px;
+            height: 95%;
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+        }
+        .person1{
+            width: 95%;
+            height: 10%;
+            border: 1px black dotted;
+            margin: 10px;
+        }
+        .person2{
+            width: 95%;
+            height: 65%;
+            border: 1px black dotted;
+            margin: 10px;
+        }
+        .person3{
+            width: 95%;
+            height: 10%;
+            border: 1px black dotted;
+            margin: 10px;
+        }
+        .uncle-child1{
+            width: 95%;
+            height: 10%;
+            border: 1px black solid;
+            margin: 10px;
+        }
+        .uncle-child2{
+            width: 95%;
+            height: 60%;
+            border: 1px black solid;
+            margin: 10px;
+        }
+        .uncle-child3{
+            width: 95%;
+            height: 10%;
+            border: 1px black solid;
+            margin: 10px;
+        }
+        .uncle-number{
+            width: 95%;
+            margin: 2%;
+            border: 1px black dotted;
+            height: 20%;
+            font-size: 40px;
+        }
+        .uncle-number1{
+            background-color: orange;
+        }
+        .uncle-number3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+   <div class="grandfather">
+    <p>Grandfather</p>
+    <div class="father">
+        <p>Father</p>
+        <div class="father-person1">
+            <p>Person 1</p>
+            <div class="child child1"><p>Child 1</p></div>
+            <div class="child child2"><p>Child 2</p></div>
+            <div class="child child3">
+                <p>Child 3</p>
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+            </div>
+        </div>
+    </div>
+    <div class="uncle">
+        <p>Uncle</p>
+        <div class="person person1"><p>Person 1</p></div>
+        <div class="person person2">
+            <p>Person 2</p>
+            <div class="uncle-child1"><p>Child 1</p></div>
+            <div class="uncle-child2">
+                <p>Child 2</p>
+                <div class="uncle-number uncle-number1">1</div>
+                <div class="uncle-number uncle-number2">2</div>
+                <div class="uncle-number uncle-number3">3</div>
+            </div>
+            <div class="uncle-child3"><p>Child 3</p></div>
+        </div>
+        <div class="person person3"><p>Person 3</p></div>
+    </div>
+   </div>
+</body>
+</html>
